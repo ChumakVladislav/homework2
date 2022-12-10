@@ -1,0 +1,173 @@
+:root {
+    --brand-color: #4D5AE5;
+    --primary-color: #2E2F42;
+    --body-text-color:#434455;
+
+   }
+/* Utilities */
+.list, .list-item, .contacts-item {
+   list-style: none;
+}
+.link, .contact-link {
+   text-decoration: none;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 0.02em;
+   font-size: 16px;
+   color: var(--body-text-color)
+}
+/* header */
+
+.logo { 
+   color: var(--brand-color)
+}
+
+.logotype {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.3;
+   letter-spacing: 0.03em;
+}
+
+.navigation .link {
+   font-weight: 600;
+   line-height: 1.5;
+
+   color: var(--primary-color)
+}
+.list-item > .link:hover,
+.list-item > .link:focus,
+.contacts-link :hover,
+.contact-link:focus {
+   color: var(--body-text-color)
+}
+.navigation .link:active {
+   color: var(--brand-color);
+}
+
+.contact-link:active{
+   color: var(--brand-color);
+}
+.contact-link {
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+   color: var(--body-text-color);
+}
+
+/* hero */
+
+.hero-title {
+font-weight: 500;
+font-size: 56px;
+line-height: 1.07;
+
+color: #FFFFFF;
+}
+
+.footer-logo,
+.footer-text {
+   color: #FFFFFF;
+}
+
+.hero {
+   background-color: var(--primary-color);
+}
+
+.button {
+   font-family: inherit;
+   font-weight: 600;
+   line-height: 1.19;
+   letter-spacing: 0.04em;
+
+   background-color: var(--brand-color);
+   color: #FFFFFF; 
+   cursor: pointer;
+}
+
+.button:active {
+   background-color: #404BBF;
+   
+}
+
+/* What are we doing */
+
+
+/* Oportunities  */
+h2,h3,h4 {
+   color: var(--primary-color);
+}
+
+.oportunities-list>.list-item {
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+}
+
+.oportunities-list>.list-item>p{
+   font-weight: 400;
+line-height: 1.5;
+
+}
+
+/* our team  */
+.our-team-header, .what-are-we-doing {
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+}
+
+.persons h3 {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1.2;
+   }
+
+.persons p {
+   font-weight: 400;
+   line-height: 1.5;
+   }
+
+/* footer */
+
+.footer {
+   background-color: var(--primary-color);
+}
+
+.footer-logo {
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.16;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+
+.footer-text {
+   font-weight: 400;
+   line-height: 1.5;
+}
+/* Portfolio  */
+
+.filtr {
+   font-family: inherit;
+   font-weight: 600;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: var(--brand-color);
+   background-color: #F4F4FD;
+   cursor: pointer;
+}
+.filtr:hover, .filtr:focus {
+   background-color: var(--brand-color);
+   color: #FFFFFF;
+}
+
+.list-item>.link p{
+   color: var(--body-text-color);
+}
